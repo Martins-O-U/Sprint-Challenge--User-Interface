@@ -144,3 +144,44 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header nav{
+	display: flex;
+    justify-content: space-between;
+    margin-right: 30px
+}
+
+.section-one {
+	display: flex;
+	justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+#features{
+    padding: 15px;
+}
+
+img{
+    margin: 10px 0px
+}
+
+.about-img{
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+button{
+	background: #fff;
+	border: solid 1px #000;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin: 15px 0px 10px 0px
+}
+
+.about-div{
+    margin: 10px 10px 20px 20px
+}
+
+.Last-sec{
+    margin: 10px 10px 30px 20px
+}
