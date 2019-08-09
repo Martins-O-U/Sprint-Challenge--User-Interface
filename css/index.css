@@ -101,15 +101,91 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
+.middle-content .boxes{
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
+}
+
+.box-1 {
+    width: 12.5%;
+    height: 100px;
+    background: teal;
+    margin: 20px 2.5%;
+    color: white;
+}
+
+.box-2 {
+    width: 12.5%;
+    height: 100px;
+    background: gold;
+    margin: 20px 2.5%;
+    color: white;
+}
+
+.box-3 {
+    width: 12.5%;
+    height: 100px;
+    background: cadetblue;
+    margin: 20px 2.5%;
+    color: white;
+}
+
+.box-4 {
+    width: 12.5%;
+    height: 100px;
+    background: coral;
+    margin: 20px 2.5%;
+    color: white;
+}
+
+.box-5 {
+    width: 12.5%;
+    height: 100px;
+    background: crimson;
+    margin: 20px 2.5%;
+    color: white;
+}
+
+.box-6 {
+    width: 12.5%;
+    height: 100px;
+    background:forestgreen;
+    margin: 20px 2.5%;
+    color: white;
+}
+
+.box-7 {
+    width: 12.5%;
+    height: 100px;
+    background: darkorchid;
+    margin: 20px 2.5%;
+    color: white;
+}
+
+.box-8 {
+    width: 12.5%;
+    height: 100px;
+    background: hotpink;
+    margin: 20px 2.5%;
+    color: white;
+}
+
+.box-9 {
+    width: 12.5%;
+    height: 100px;
+    background: indigo;
+    margin: 20px 2.5%;
+    color: white;
+}
+
+.box-10 {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
 }
 
 .bottom-content {
@@ -143,4 +219,46 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+header nav{
+	display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+    align-items: baseline
+}
+
+.section-one {
+	display: flex;
+	justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+#features{
+    padding: 15px;
+}
+
+img{
+    margin: 10px 0px
+}
+
+.about-img{
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+button{
+	background: #fff;
+	border: solid 1px #000;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin: 15px 0px 10px 0px
+}
+
+.about-div{
+    margin: 10px 10px 20px 20px
+}
+
+.Last-sec{
+    margin: 10px 10px 30px 20px
 }
